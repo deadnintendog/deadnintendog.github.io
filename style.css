@@ -1,0 +1,96 @@
+body {
+    background-color: lemonchiffon;
+    font-family: 'Futura';
+    color: chocolate;
+    text-align: center;
+  }
+
+/*
+div {
+    border: solid 4px slateblue;
+    color: plum;
+    width: 400px;
+  }
+*/
+
+h2 {
+    font-size: 18px;
+    font-family: 'Luminari';
+  }
+  
+a {
+    background-color: lavender;
+    font-size: 10px;
+    font-family: 'Courier';
+    border-radius: 125px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 1px;
+    color: slateblue;
+    width: 180px;
+  }
+  
+.vulnerable {
+    color: plum;
+  }
+  
+.brave {
+    color: tomato;
+  }
+  
+.magical {
+    color: slateblue;
+  }
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 2px solid plum;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header icon"
+    "h4 h4"
+    "casual n00b"
+    "admirer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.icon {
+  grid-area: clefairy;
+}
+  
+.h4 {
+  grid-area: h4;
+}
+
+.casual {
+  grid-area: casual;
+}
+
+.n00b {
+  grid-area: n00b;
+}
+
+.admirer {
+  grid-area: admirer;
+}
